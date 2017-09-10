@@ -1,0 +1,35 @@
+// CMS Script File
+//
+//     Game Title: Star Citizen
+//     Written By: Toysrme
+//           Date: 2014
+//
+
+Script
+
+%DEFINE Eject CMS.B5
+
+Eject = ( JS2.B4 AND JS2.B3 AND JS2.B2 );
+
+//Flip Yaw/Roll Axis for Decoupled Mode
+//  If( JS2.B3) Then
+//    CURRENTMODE = MODE2;
+//  ELSE
+//    CURRENTMODE = MODE1;
+//  ENDIF
+
+// Toebrakes on rudder pedals
+  IF ([JS3.A1 > 150] OR [JS3.A2 > 150]) THEN // wheelbrakes pressed
+    CMS.B128 = TRUE ;
+  ELSE // wheelbrakes not pressed
+    CMS.B128 = FALSE ;
+  ENDIF
+
+// Boost on High Throttle
+  IF ([JS2.A3 < 20]) THEN // Throttle at Max
+   CMS.B7 = TRUE ;
+  ELSE
+   CMS.B7 = FALSE ;
+  ENDIF
+
+ENDSCRIPT

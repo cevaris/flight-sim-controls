@@ -1,0 +1,33 @@
+// CMS Script File
+//
+//     Game Title:
+//     Written By:
+//           Date:
+//
+script
+
+
+  // Boost on High Throttle
+  IF ([JS2.A3 < 10]) THEN
+    CMS.B127 = TRUE ;
+  ELSE
+    CMS.B127 = FALSE ;
+  ENDIF
+  
+  // Break on Low Throttle
+  IF ([JS2.A3 > 215]) THEN
+    CMS.B128 = TRUE ;
+  ELSE
+    CMS.B128 = FALSE ;
+  ENDIF
+
+  // Toebrakes on rudder pedals
+  IF ([JS3.A1 > 150] OR [JS3.A2 > 150]) THEN
+    // wheelbrakes pressed
+    CMS.B128 = TRUE ;
+  ELSE
+    // wheelbrakes not pressed
+    CMS.B128 = FALSE ;
+  ENDIF
+
+endScript

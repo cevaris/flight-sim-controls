@@ -1,0 +1,136 @@
+//DEFAULT ARENA COMMANDER HEADINGS
+
+// Flight - Cockpit
+Exit_Seat                   f
+Eject                       HOLD RALT l
+Lights                      o
+Power_Preset_1              1
+Power_Preset_2              2
+Power_Preset_3              3
+Self_Destruct               RALT BCSPC
+
+// Flight - View
+Look_Left                   z j
+Look_Right                  z l
+Look_Up                     k
+Look_Down                   i
+Cycle_Camera_View           F4
+Cycle_Camera_Orbit_Mode     
+Zoom_In_3rd_Person
+Zoom_Out_3rd_Person
+Freelook                    z
+Look_Behind                 LALT z
+
+// Flight - Movement
+
+Match_Target_Velocity       NULL m
+Decoupled_Mode              NULL c
+Toggle_Safeties             NULL v
+GForce_Safety_Toggle        CTL g
+Comstab_Safety_Toggle       CTL c
+ESP                         RALT o
+
+Spacebrake                  LALT x
+Decoupled_Spacebrake        SPC
+Boost                       LSHF
+Pitch_Up                    s
+Pitch_Down                  w
+Yaw_Left                    a
+Yaw_Right                   d
+Roll_Left                   q
+Roll_Right                  e
+
+Strafe_Up                   HOLD SPC
+Strafe_Down                 HOLD LCTL
+Strafe_Left                 HOLD a
+Strafe_Right                HOLD d
+Strafe_Forward              HOLD LALT w
+Strafe_Back                 HOLD LALT s
+
+Landing_System              NULL n
+AutoLand                    n
+
+// Flight - Targeting
+Aim_Left
+Aim_Right
+Aim_Up
+Aim_Down
+Gimbal_Lock                 LALT
+Reticle_Focus               HOLD v
+Cycle_All_Targets           y
+Cycle_All_Targets_Back      LCTL y
+Cycle_Friendly_Targets      h
+Cycle_Friendly_Targets_Back LCTL h
+Pin_Focused_Target          g
+Cycle_Pinned_Targets        u
+Cycle_Pinned_Targets_Back
+Missile_Lock                MCLICK
+Cycle_Hostile_Targets       t
+Cycle_Hostile_Targets_Back  LCTL t
+Target_Nearest_Hostile      c
+Target_Head_Tracking        l
+Couple_Aim_Mode             RALT m
+
+// Flight - Weapons
+Fire_Weapon_Group_1
+Fire_Weapon_Group_2
+Fire_Weapon_Group_3
+Fire_Weapon_Group_4
+
+// Flight - Missiles
+Launch_Missile              MCLICK
+
+// Flight - Defensive
+Launch_Countermeasure       z
+Cycle_Countermeasure        x
+Shield_Raise_Front          KP8
+Shield_Raise_Back           KP2
+Shield_Raise_Left           KP4
+Shield_Raise_Right          KP6
+Shield_Raise_Top            KP9
+Shield_Raise_Bottom         KP7
+Shield_Reset_Levels         KP5
+
+// Flight - Power
+
+Power_Preset_1              1
+Power_Preset_2              2
+Power_Preset_3              3
+
+// Flight - Area
+
+Arena_Commander
+
+// Flight - Radar
+Radar_Cycle_Range           ,
+
+// Flight - HUD
+HUD_Show_Overview           F1
+HUD_Show_Weapons            F2
+HUD_Show_Power              f3
+HUD_Show_Shields            f4
+Scoreboard                  LCTL SPC
+HUD_Maximize                F11
+HUD_Interact                KBHOME
+HUD_Confirm                 ENT
+HUD_Cancel                  RCTL
+HUD_Move_Up                 KBUP
+HUD_Move_Down               KBDOWN
+HUD_Move_Left               KBLEFT
+HUD_Move_Right              KBRIGHT
+
+//SPECIALTY SETTINGS
+
+// TeamSpeak Push To Talk Key
+Push_To_Talk                ENT
+
+
+// Weapons Group Power
+//Defensive_Mode              F3 0 2 F1
+//Offensive_Mode  	          F3 0 1 F1
+//Evasive_Mode    	          F3 0 3 F1
+//Racing_Mode     	          F3 0 3 3 3 F1
+//Turtle_Mode     	          F3 0 2 2 2 F1
+//Assassin_Mode    	          F3 0 1 1 1 F1
+//Standard_Mode               F3 0 F1
+
