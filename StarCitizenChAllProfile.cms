@@ -8,11 +8,11 @@ script
 
 
   // Boost on High Throttle
-  //IF ([JS2.A3 < 10]) THEN
-  //  CMS.B127 = TRUE ;
-  //ELSE
-  //  CMS.B127 = FALSE ;
-  //ENDIF
+  IF ([JS2.A3 < 10]) THEN
+    CMS.B127 = TRUE ;
+  ELSE
+    CMS.B127 = FALSE ;
+  ENDIF
   
   // Break on Low Throttle
   IF ([JS2.A3 > 215]) THEN
