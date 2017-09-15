@@ -15,7 +15,7 @@ script
   ENDIF
   
   // Break on Low Throttle
-  IF ([JS2.A3 > 215]) THEN
+  IF ([JS2.A3 > 205]) THEN
     CMS.B128 = TRUE ;
   ELSE
     CMS.B128 = FALSE ;
