@@ -1,3 +1,4 @@
+010C22=NULL m
 000001=2
 000002=9
 000003=50
@@ -45,7 +46,7 @@
 010C20=NULL t
 010C24=1
 010C25=5
-010C28=select target ahead
+010C28=select target ahead / next jump system
 010D01=1
 010D04=1
 010D05=1
