@@ -93,11 +93,11 @@
 		<Deadzone Value="0.00000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_I" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton>
 	<BackwardThrustButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_K" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton>
 	<UseAlternateFlightValuesToggle>
@@ -348,7 +348,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -487,10 +487,10 @@
 		<Primary Device="Keyboard" Key="Key_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
-	<LeftPanelFocusOptions Value="" />
-	<CommsPanelFocusOptions Value="FocusOption_Show" />
-	<RolePanelFocusOptions Value="" />
-	<RightPanelFocusOptions Value="" />
+	<LeftPanelFocusOptions Value="FocusOption_Nothing" />
+	<CommsPanelFocusOptions Value="FocusOption_Nothing" />
+	<RolePanelFocusOptions Value="FocusOption_Nothing" />
+	<RightPanelFocusOptions Value="FocusOption_Nothing" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
