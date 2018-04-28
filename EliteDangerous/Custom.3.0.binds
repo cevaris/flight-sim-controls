@@ -364,7 +364,7 @@
 		<Secondary Device="068EC010" Key="Joy_5" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_P" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -511,7 +511,7 @@
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
 	<Pause>
-		<Primary Device="Keyboard" Key="Key_P" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Pause>
 	<FriendsMenu>
