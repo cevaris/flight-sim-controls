@@ -692,7 +692,7 @@
 	<MouseBuggyYMode Value="" />
 	<MouseBuggyYDecay Value="1" />
 	<SteeringAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
@@ -705,7 +705,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
@@ -718,7 +718,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
@@ -731,33 +731,33 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Tab" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Mouse_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Insert" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_L" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_U" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleBuggyTurretButton>
 	<SelectTarget_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="" />
@@ -765,7 +765,7 @@
 	<MouseTurretYMode Value="" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -778,7 +778,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
@@ -791,8 +791,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretPitchDownButton>
 	<DriveSpeedAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="068EC010" Key="Joy_ZAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</DriveSpeedAxis>
 	<BuggyThrottleRange Value="" />
@@ -803,11 +803,11 @@
 	</BuggyToggleReverseThrottleInput>
 	<BuggyThrottleIncrement Value="0.00000000" />
 	<IncreaseSpeedButtonMax>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_I" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSpeedButtonMax>
 	<DecreaseSpeedButtonMax>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_K" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DecreaseSpeedButtonMax>
 	<IncreaseSpeedButtonPartial>
@@ -821,25 +821,25 @@
 		<Deadzone Value="0.00000000" />
 	</DecreaseSpeedButtonPartial>
 	<IncreaseEnginesPower_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_POV1Up" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseEnginesPower_Buggy>
 	<IncreaseWeaponsPower_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_POV1Right" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseWeaponsPower_Buggy>
 	<IncreaseSystemsPower_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_POV1Left" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower_Buggy>
 	<ResetPowerDistribution_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_POV1Down" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Home" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
@@ -858,7 +858,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel_Buggy>
 	<FocusCommsPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel_Buggy>
 	<QuickCommsPanel_Buggy>
@@ -866,11 +866,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Buggy>
 	<FocusRadarPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel_Buggy>
 	<FocusRightPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel_Buggy>
 	<GalaxyMapOpen_Buggy>
