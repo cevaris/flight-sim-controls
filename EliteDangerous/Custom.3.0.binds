@@ -462,7 +462,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EngineColourToggle>
 	<NightVisionToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</NightVisionToggle>
 	<UIFocus>
@@ -527,7 +527,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<UI_Up>
@@ -1338,7 +1338,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
@@ -1366,7 +1366,7 @@
 	</SAAThirdPersonYawRightButton>
 	<SAAThirdPersonPitchAxisRaw>
 		<Binding Device="068EC010" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonPitchAxisRaw>
 	<SAAThirdPersonPitchUpButton>
