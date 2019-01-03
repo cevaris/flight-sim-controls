@@ -799,7 +799,7 @@
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
 		<Binding Device="068EC010" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
